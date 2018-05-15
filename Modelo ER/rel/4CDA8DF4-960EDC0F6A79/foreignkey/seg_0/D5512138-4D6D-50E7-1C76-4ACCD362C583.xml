@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D5512138-4D6D-50E7-1C76-4ACCD362C583" containerWithKeyObject="4CC96EB4-960B-A7AA-EFA9-D8317019EAFE" localFKIndex="2720CFFB-0915-99FC-C42B-19CE6AEC78A7" name="Grados_Plan_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:15:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>5F2E44F4-8DD3-373E-855C-E9B0D66F6245</referredTableID>
+<keyObject>D74057A3-267F-378D-3FDD-6EE38811382A</keyObject>
+<referredKeyID>D74057A3-267F-378D-3FDD-6EE38811382A</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

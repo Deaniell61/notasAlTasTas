@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4CC96EB4-960B-A7AA-EFA9-D8317019EAFE" name="Grados">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:05:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IdGrado" id="010657A1-16AE-ECBD-DFBA-3B307F8B1268">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreGrado" id="FBA7126E-B117-B867-B3B1-9E6313FEEC41">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadAlumnos" id="E3F773CC-827C-B218-D441-99D4C278D774">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CantidadMaterias" id="A9882A83-8EB9-45F5-269F-E7D5D224A21C">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anio" id="8CFCA049-D5BC-DE4B-35B4-CCDC3F2CDF7C">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="IdPlan" id="26053409-33B6-66FC-C0A4-9DCAEB329213">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D5512138-4D6D-50E7-1C76-4ACCD362C583" referredColumn="C5D7A1FD-FF09-461A-6A5E-FC73A4F918C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02FFA8E2-562D-1ACB-E5F2-116F4FE98B34" name="Grados_PK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:21 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="010657A1-16AE-ECBD-DFBA-3B307F8B1268"/>
+<colUsage columnID="8CFCA049-D5BC-DE4B-35B4-CCDC3F2CDF7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2720CFFB-0915-99FC-C42B-19CE6AEC78A7" name="Grados_Plan_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:15:31 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26053409-33B6-66FC-C0A4-9DCAEB329213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

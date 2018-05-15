@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FA274B6E-FD32-6323-AEAC-A38DC4A1256B" containerWithKeyObject="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" localFKIndex="D5EAEF26-03BD-CB5B-2A7E-9E7E10DBCA18" name="Notas_Incripcion_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:17:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4275657-6801-4A7F-BC2B-F81B312D2B25</referredTableID>
+<keyObject>B41BCA68-19CE-E687-73BF-CE318A06C62C</keyObject>
+<referredKeyID>B41BCA68-19CE-E687-73BF-CE318A06C62C</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

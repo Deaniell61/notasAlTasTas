@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" name="Notas">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:10:39 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<ordsAlias>table_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idGrado" id="AB373402-1DCC-F98A-4123-DF338F4250E7">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD7D587B-B7E1-84DD-EB17-E007ADE2AF09" referredColumn="010657A1-16AE-ECBD-DFBA-3B307F8B1268"/>
+<colAssociation fkAssociation="FA274B6E-FD32-6323-AEAC-A38DC4A1256B" referredColumn="6A333F8D-B6D2-1698-F00F-6B4DC21DD59C"/>
+<colAssociation fkAssociation="40F9E2BF-1E87-0EBB-821E-2D6DB10135D9" referredColumn="1ED02EDA-731D-5ABB-41D7-632A13799134"/>
+</associations>
+</Column>
+<Column name="idMateria" id="64CF597A-6A59-FD1D-2414-0D0574D9A4CB">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40F9E2BF-1E87-0EBB-821E-2D6DB10135D9" referredColumn="C9757CA3-2E53-CCA1-60D8-2941578C8984"/>
+</associations>
+</Column>
+<Column name="idInscripcion" id="B17302CD-09CA-D89D-5047-708E96759F69">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA274B6E-FD32-6323-AEAC-A38DC4A1256B" referredColumn="64648935-1854-2E5E-AA91-DD0C7BE82AF3"/>
+</associations>
+</Column>
+<Column name="idNota" id="65C9A294-783E-E0E5-FC15-A86870C07846">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idCiclo" id="E6C42F51-F43D-0252-AE30-DB41A21019C6">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="66C3530F-28CD-D09D-92DA-568071F83419" referredColumn="351D0C06-7135-F60D-5FF4-ED30D0890866"/>
+</associations>
+</Column>
+<Column name="nota" id="21065D51-445D-C723-74DC-50C3BB818D10">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio" id="1F045F78-D223-208E-E1CF-20EBAD73DAD8">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BD7D587B-B7E1-84DD-EB17-E007ADE2AF09" referredColumn="8CFCA049-D5BC-DE4B-35B4-CCDC3F2CDF7C"/>
+<colAssociation fkAssociation="FA274B6E-FD32-6323-AEAC-A38DC4A1256B" referredColumn="2AA90E5C-208D-C80D-F5E1-E5F5032EC9C1"/>
+<colAssociation fkAssociation="40F9E2BF-1E87-0EBB-821E-2D6DB10135D9" referredColumn="3E3E5AD1-756B-423E-54C0-80C775EB71F9"/>
+</associations>
+</Column>
+<Column name="idAlumno" id="09B9B89E-6CF8-23CC-837B-B1B344BA1A3B">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:16:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA274B6E-FD32-6323-AEAC-A38DC4A1256B" referredColumn="40F8F799-B9F8-7D72-08BD-DA6AB466E3EB"/>
+</associations>
+</Column>
+<Column name="idMaestro" id="08A87DEA-0922-491E-006F-25FA52D1FDDE">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:18:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="40F9E2BF-1E87-0EBB-821E-2D6DB10135D9" referredColumn="2AD75586-BFF5-3438-D6D2-AFB906607FF7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C2ECEEEA-D407-29BD-AC25-108D73213B6C" name="Notas_PK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:12:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65C9A294-783E-E0E5-FC15-A86870C07846"/>
+<colUsage columnID="B17302CD-09CA-D89D-5047-708E96759F69"/>
+<colUsage columnID="64CF597A-6A59-FD1D-2414-0D0574D9A4CB"/>
+<colUsage columnID="AB373402-1DCC-F98A-4123-DF338F4250E7"/>
+<colUsage columnID="E6C42F51-F43D-0252-AE30-DB41A21019C6"/>
+<colUsage columnID="1F045F78-D223-208E-E1CF-20EBAD73DAD8"/>
+<colUsage columnID="09B9B89E-6CF8-23CC-837B-B1B344BA1A3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D5EAEF26-03BD-CB5B-2A7E-9E7E10DBCA18" name="Notas_Incripcion_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:17:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09B9B89E-6CF8-23CC-837B-B1B344BA1A3B"/>
+<colUsage columnID="AB373402-1DCC-F98A-4123-DF338F4250E7"/>
+<colUsage columnID="1F045F78-D223-208E-E1CF-20EBAD73DAD8"/>
+<colUsage columnID="B17302CD-09CA-D89D-5047-708E96759F69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A1F7088-4F25-09FF-6EBF-C12E8A8E64C0" name="Notas_Grados_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:17:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB373402-1DCC-F98A-4123-DF338F4250E7"/>
+<colUsage columnID="1F045F78-D223-208E-E1CF-20EBAD73DAD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BB59E51C-7D9A-A105-51AA-20840FB90E5E" name="Notas_Materias_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:18:18 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="64CF597A-6A59-FD1D-2414-0D0574D9A4CB"/>
+<colUsage columnID="08A87DEA-0922-491E-006F-25FA52D1FDDE"/>
+<colUsage columnID="AB373402-1DCC-F98A-4123-DF338F4250E7"/>
+<colUsage columnID="1F045F78-D223-208E-E1CF-20EBAD73DAD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="768BE6E1-305F-9E2A-030F-DC219F6B0FD9" name="Notas_Ciclos_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:30:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6C42F51-F43D-0252-AE30-DB41A21019C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

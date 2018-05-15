@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="226E20BD-2D6E-AF4C-483D-3369E2AE443D" name="Maestros">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMaestro" id="51E9F240-EED5-7EC9-598B-95F184BA0BF5">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="8C8F9F71-AC1A-4393-4D1B-3D510F61EFD0">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellido" id="8D40377D-9925-932B-A94F-34E0CD91B47C">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefono" id="A0F5AA43-BB00-1704-02C3-2FB50F3D548C">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Direccion" id="3C079DAC-E4D7-028B-B4BB-529DE3158503">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24418683-1B29-A1AC-0EBB-3AF5415E70FB" name="Maestros_PK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:59 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="51E9F240-EED5-7EC9-598B-95F184BA0BF5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

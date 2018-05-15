@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4275657-6801-4A7F-BC2B-F81B312D2B25" name="Incripcion">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:09:19 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idAlumno" id="40F8F799-B9F8-7D72-08BD-DA6AB466E3EB">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:09:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="696D73AB-9E35-9E26-DE34-DD7CCF0D0AB7" referredColumn="E5B6E930-2509-256B-ED11-6D2ECEE6259D"/>
+</associations>
+</Column>
+<Column name="idGrado" id="6A333F8D-B6D2-1698-F00F-6B4DC21DD59C">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:09:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57857F5C-2C57-1DA9-C642-8212A2E5DA4B" referredColumn="010657A1-16AE-ECBD-DFBA-3B307F8B1268"/>
+</associations>
+</Column>
+<Column name="Anio" id="2AA90E5C-208D-C80D-F5E1-E5F5032EC9C1">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:09:53 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="57857F5C-2C57-1DA9-C642-8212A2E5DA4B" referredColumn="8CFCA049-D5BC-DE4B-35B4-CCDC3F2CDF7C"/>
+</associations>
+</Column>
+<Column name="idIncripcion" id="64648935-1854-2E5E-AA91-DD0C7BE82AF3">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:10:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B41BCA68-19CE-E687-73BF-CE318A06C62C" name="Incripcion_PK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:10:11 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40F8F799-B9F8-7D72-08BD-DA6AB466E3EB"/>
+<colUsage columnID="6A333F8D-B6D2-1698-F00F-6B4DC21DD59C"/>
+<colUsage columnID="2AA90E5C-208D-C80D-F5E1-E5F5032EC9C1"/>
+<colUsage columnID="64648935-1854-2E5E-AA91-DD0C7BE82AF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07C9121B-9BA2-9EC6-F78D-996588454164" name="Incripcion_Alumnos_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:13:40 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="40F8F799-B9F8-7D72-08BD-DA6AB466E3EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8F14CB00-B20F-D8D7-F92F-ECC737628606" name="Incripcion_Grados_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:14:08 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6A333F8D-B6D2-1698-F00F-6B4DC21DD59C"/>
+<colUsage columnID="2AA90E5C-208D-C80D-F5E1-E5F5032EC9C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

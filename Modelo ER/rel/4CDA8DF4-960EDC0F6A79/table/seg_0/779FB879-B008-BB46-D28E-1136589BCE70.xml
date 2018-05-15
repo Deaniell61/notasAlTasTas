@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="779FB879-B008-BB46-D28E-1136589BCE70" name="Materias">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:06:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idMateria" id="C9757CA3-2E53-CCA1-60D8-2941578C8984">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NombreMateria" id="47327B48-DAC1-AC5E-38AD-E9B9E9312122">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="idMaestro" id="2AD75586-BFF5-3438-D6D2-AFB906607FF7">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A3481635-05E0-7281-9512-48C09A13F6A7" referredColumn="51E9F240-EED5-7EC9-598B-95F184BA0BF5"/>
+</associations>
+</Column>
+<Column name="idGrado" id="1ED02EDA-731D-5ABB-41D7-632A13799134">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:07:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19D030E7-0AD9-9E93-3463-04EC9601CB85" referredColumn="010657A1-16AE-ECBD-DFBA-3B307F8B1268"/>
+</associations>
+</Column>
+<Column name="Anio" id="3E3E5AD1-756B-423E-54C0-80C775EB71F9">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:14:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="19D030E7-0AD9-9E93-3463-04EC9601CB85" referredColumn="8CFCA049-D5BC-DE4B-35B4-CCDC3F2CDF7C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="92849DB3-AF8E-C797-2677-BFC618DD5F7A" name="Materias_PK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:08:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C9757CA3-2E53-CCA1-60D8-2941578C8984"/>
+<colUsage columnID="2AD75586-BFF5-3438-D6D2-AFB906607FF7"/>
+<colUsage columnID="1ED02EDA-731D-5ABB-41D7-632A13799134"/>
+<colUsage columnID="3E3E5AD1-756B-423E-54C0-80C775EB71F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DD2AD89-DC79-238C-D689-4A8A5A21874D" name="Materias_Grados_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:14:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1ED02EDA-731D-5ABB-41D7-632A13799134"/>
+<colUsage columnID="3E3E5AD1-756B-423E-54C0-80C775EB71F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="50292C40-5A7A-DB44-2711-3ACC42E08FCB" name="Materias_Maestros_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:15:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2AD75586-BFF5-3438-D6D2-AFB906607FF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

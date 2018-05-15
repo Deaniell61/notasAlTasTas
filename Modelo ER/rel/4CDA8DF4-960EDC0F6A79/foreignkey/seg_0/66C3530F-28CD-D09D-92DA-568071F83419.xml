@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="66C3530F-28CD-D09D-92DA-568071F83419" containerWithKeyObject="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" localFKIndex="768BE6E1-305F-9E2A-030F-DC219F6B0FD9" name="Notas_Ciclos_FK">
+<createdBy>JoséDaniel</createdBy>
+<createdTime>2015-11-25 15:30:45 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>Modelo ER</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>37EA5C5D-621B-18EC-2826-FDBC1479EB70</referredTableID>
+<keyObject>2239288D-05B9-275C-0F6E-B6277DD979F5</keyObject>
+<referredKeyID>2239288D-05B9-275C-0F6E-B6277DD979F5</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

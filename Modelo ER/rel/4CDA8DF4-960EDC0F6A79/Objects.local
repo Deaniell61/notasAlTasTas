@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="226E20BD-2D6E-AF4C-483D-3369E2AE443D" name="Maestros" seqName="seg_0"/>
+   <object objectType="Table" objectID="37EA5C5D-621B-18EC-2826-FDBC1479EB70" name="Ciclos" seqName="seg_0"/>
+   <object objectType="Table" objectID="4CC96EB4-960B-A7AA-EFA9-D8317019EAFE" name="Grados" seqName="seg_0"/>
+   <object objectType="Table" objectID="5F2E44F4-8DD3-373E-855C-E9B0D66F6245" name="Plan" seqName="seg_0"/>
+   <object objectType="Table" objectID="779FB879-B008-BB46-D28E-1136589BCE70" name="Materias" seqName="seg_0"/>
+   <object objectType="Table" objectID="8E95FE58-1A4D-AB3D-1C34-5A7054903CD3" name="Alumnos" seqName="seg_0"/>
+   <object objectType="Table" objectID="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" name="Notas" seqName="seg_0"/>
+   <object objectType="Table" objectID="CFBABE96-BE96-9DD5-450D-A3A47DE084CC" name="users" seqName="seg_0"/>
+   <object objectType="Table" objectID="F4275657-6801-4A7F-BC2B-F81B312D2B25" name="Incripcion" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="19D030E7-0AD9-9E93-3463-04EC9601CB85" name="Materias_Grados_FK" containerID="779FB879-B008-BB46-D28E-1136589BCE70" refContainerID="4CC96EB4-960B-A7AA-EFA9-D8317019EAFE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="40F9E2BF-1E87-0EBB-821E-2D6DB10135D9" name="Notas_Materias_FK" containerID="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" refContainerID="779FB879-B008-BB46-D28E-1136589BCE70" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="57857F5C-2C57-1DA9-C642-8212A2E5DA4B" name="Incripcion_Grados_FK" containerID="F4275657-6801-4A7F-BC2B-F81B312D2B25" refContainerID="4CC96EB4-960B-A7AA-EFA9-D8317019EAFE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="66C3530F-28CD-D09D-92DA-568071F83419" name="Notas_Ciclos_FK" containerID="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" refContainerID="37EA5C5D-621B-18EC-2826-FDBC1479EB70" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="696D73AB-9E35-9E26-DE34-DD7CCF0D0AB7" name="Incripcion_Alumnos_FK" containerID="F4275657-6801-4A7F-BC2B-F81B312D2B25" refContainerID="8E95FE58-1A4D-AB3D-1C34-5A7054903CD3" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="A3481635-05E0-7281-9512-48C09A13F6A7" name="Materias_Maestros_FK" containerID="779FB879-B008-BB46-D28E-1136589BCE70" refContainerID="226E20BD-2D6E-AF4C-483D-3369E2AE443D" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="BD7D587B-B7E1-84DD-EB17-E007ADE2AF09" name="Notas_Grados_FK" containerID="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" refContainerID="4CC96EB4-960B-A7AA-EFA9-D8317019EAFE" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="D5512138-4D6D-50E7-1C76-4ACCD362C583" name="Grados_Plan_FK" containerID="4CC96EB4-960B-A7AA-EFA9-D8317019EAFE" refContainerID="5F2E44F4-8DD3-373E-855C-E9B0D66F6245" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FA274B6E-FD32-6323-AEAC-A38DC4A1256B" name="Notas_Incripcion_FK" containerID="BE244368-6C4D-5DC5-F5FD-2B3A9321CB14" refContainerID="F4275657-6801-4A7F-BC2B-F81B312D2B25" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
